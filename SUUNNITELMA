@@ -1,0 +1,64 @@
+# Harjoitustyön suunnitelma
+
+## Tietoja
+**Tekijä:** Tuomas Toivonen 
+**Työ git-varaston osoite:** https://github.com/[kayttajanimi]/ohj1ht.git  
+**Pelin nimi:** Hirven Pyyntipeli  
+**Pelialusta:** macOS
+**Pelaajien lukumäärä:** 1
+
+---
+
+## Pelin tarina
+Peli sijoittuu metsään, jossa pelaaja on passissa ruudun alalaidassa kiväärin kanssa.
+Metsässä eläimet ilmestyvät puiden taakse vain hetkeksi, ja pelaajan tehtävänä on tunnistaa oikeat kohteet nopeasti.
+Kaikki eläimet eivät ole sallittuja kohteita, ja väärät laukaukset johtavat rangaistuksiin.
+Peli on arcade-tyylinen, mutta visuaalisesti rauhallinen ja yksinkertainen.
+
+---
+
+## Pelin idea ja tavoitteet
+Peli on aikapohjainen pistehaaste (Score Attack).
+
+**Pelin idea:**  
+Eläimiä ilmestyy metsään satunnaisiin paikkoihin puiden taakse. Pelaaja tähtää hiirellä ja ampuu klikkaamalla.
+
+**Tavoitteet:**
+- Kerätä mahdollisimman paljon pisteitä 60 sekunnin aikana
+- Ampua hirviä saadakseen pisteitä
+- Välttää "viattomien" metsän eläinten ampumista
+
+**Säännöt:**
+- Hirveen osuminen lisää pisteitä
+- "Viattomaan" eläimeen osuminen vähentää pisteitä ja kasvattaa virhelaskuria
+- Jos pelaaja ampuu kolme väärää eläintä, peli päättyy heti häviöön
+- Peli päättyy automaattisesti ajan loppuessa
+
+---
+
+## Hahmotelma pelistä
+- kuvat/hahmotelma1.png – pelin ruudun yleinen asettelu (havainnollistava)
+
+![Hahmotelma](kuvat/hahmotelma1.png)
+
+
+---
+
+## Toteutuksen suunnitelma
+
+### Helmikuu
+- Pelin perusrungon luominen (Jypeli-projekti)
+- Taustan ja puiden lisääminen (kiinteät paikat, Z-kerrokset)
+- Pelaajan ase ja tähtäin (hiiriohjaus)
+
+### Maaliskuu
+- Eläinten spawnaus ja listojen käyttö
+- Pisteytys, virhelaskuri ja ajastin (60 s)
+- Pelin päättymislogiikka ja lopetusruutu
+
+### Jos aikaa jää
+- Vaikeustason säätäminen ajan kuluessa
+- Visuaalisia parannuksia (animaatiot, äänet)
+- Ennätystuloksen tallennus pelin ajaksi
+
+---
