@@ -1,0 +1,1 @@
+Hahmotelmakuvat harjoitustyötä varten.
