@@ -1,9 +1,3 @@
-# .NET build outputs
 bin/
 obj/
-
-# Rider/JetBrains
 .idea/
-*.user
-*.suo
-*.cache
